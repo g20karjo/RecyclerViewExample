@@ -4,6 +4,6 @@
     android:layout_height="wrap_content"
     android:id="@+id/mountain_name"
     android:text="Mountain Name"
-    android:textSize="40sp">
+    android:textSize="48sp">
 
 </TextView>
