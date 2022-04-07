@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        List<String> mountains = Arrays.asList("K2","Kebnekaise","Billingen", "Ida", "Hunneberg", "Halleberg");
+        List<String> mountains = Arrays.asList("K2","Kebnekaise","Billingen", "Ida", "Hunneberg", "Halleberg", "Erik", "Sebastian", "Wille", "Erik 2",  "Karl", "Eriksberg","Hejsan");
 
         recyclerView=findViewById(R.id.recycler_view);
         MountainAdapter mountainAdapter = new MountainAdapter(mountains);
